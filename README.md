@@ -1,0 +1,2 @@
+# ExercicioDavi
+Davi Exercício GETALL

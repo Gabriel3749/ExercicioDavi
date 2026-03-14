@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Frontend CRUD para Usuários</h1>
+
+  <!-- Criar usuário -->
+  <section>
+    <h2>Criar Usuário</h2>
+    <form id="formCriar">
+      <input type="text" id="nome" placeholder="Nome" required>
+      <input type="email" id="email" placeholder="Email">
+      <input type="text" id="contato" placeholder="Contato">
+      <input type="password" id="senha" placeholder="Senha">
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+
+  <!-- Listar usuários -->
+  <section>
+    <h2>Listar Usuários</h2>
+    <button id="listarBtn">Listar</button>
+    <pre id="saida"></pre>
+  </section>
+
+  <!-- Buscar usuário por ID -->
+  <section>
+    <h2>Buscar Usuário por ID</h2>
+    <input type="number" id="buscarId" placeholder="ID do usuário">
+    <button id="buscarBtn">Buscar</button>
+    <pre id="saidaBuscar"></pre>
+  </section>
+
+  <!-- Atualizar usuário -->
+  <section>
+    <h2>Atualizar Usuário</h2>
+    <form id="formAtualizar">
+      <input type="number" id="idAtualizar" placeholder="ID do usuário" required>
+      <input type="text" id="nomeAtualizar" placeholder="Novo Nome" required>
+      <input type="text" id="contatoAtualizar" placeholder="Novo Contato" required>
+      <button type="submit">Atualizar</button>
+    </form>
+    <pre id="saidaAtualizar"></pre>
+  </section>
+
+  <!-- Deletar usuário -->
+  <section>
+    <h2>Deletar Usuário</h2>
+    <input type="number" id="idDeletar" placeholder="ID do usuário" required>
+    <button id="deletarBtn">Deletar</button>
+    <pre id="saidaDeletar"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -58,40 +58,6 @@ ExercicioDavi/
 └── README.md
 ```
 
-## ▶️ Como executar
-
-### 1. Instalar as dependências
-
-```bash
-npm install
-```
-
-### 2. Configurar o banco
-
-A conexão está configurada para um MySQL local. Antes de executar, ajuste as configurações do arquivo de conexão conforme o seu ambiente e crie as tabelas necessárias no banco.
-
-### 3. Iniciar a API
-
-```bash
-npm start
-```
-
-Durante o desenvolvimento, também é possível usar:
-
-```bash
-npm run dev
-```
-
-A aplicação atual utiliza a porta `10`.
-
-### 4. Abrir o frontend
-
-Abra o arquivo `index.html` no navegador. O JavaScript do frontend faz requisições para:
-
-```text
-http://localhost:10
-```
-
 ## 🧠 Conceitos praticados
 
 - Criação de API REST
@@ -104,19 +70,9 @@ http://localhost:10
 - Queries parametrizadas no MySQL
 - Pool de conexões
 
-## ⚠️ Estado do projeto
+## 📚 Contexto
 
-Este é um projeto de estudo e ainda possui pontos que podem ser melhorados antes de ser considerado pronto para produção. Entre eles estão validações, segurança das senhas, organização do código e alguns ajustes nas consultas/rotas.
-
-## 🔧 Melhorias futuras
-
-- Separar rotas, controllers e serviços
-- Utilizar variáveis de ambiente para configuração do banco
-- Implementar hash de senhas
-- Melhorar validação dos dados recebidos
-- Corrigir e testar completamente as rotas de atualização e exclusão
-- Adicionar testes automatizados
-- Documentar a API com Swagger/OpenAPI
+Este repositório representa um projeto de estudo utilizado para praticar conceitos de desenvolvimento web, integração com banco de dados e construção de APIs.
 
 ---
 
